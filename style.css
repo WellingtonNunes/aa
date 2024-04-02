@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 100vh;
+
+}
+
+h1,
+h3 {
+    color: rgb(201, 42, 42);
+    margin-bottom: 2rem;
+}
+
+.carousel {
+    position: relative;
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.slides {
+    display: flex;
+}
+
+.slides img {
+    width: 100%;
+    transition: transform 0.8s ease;
+}
